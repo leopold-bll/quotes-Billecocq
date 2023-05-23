@@ -5,8 +5,8 @@ A python program that generates programming quotes and jokes.
 
 ## Contributors
 - `initiator`: Billecocq Leopold groupe M
-- `contributor-1`: Chitam Harone groupe M
-- `contributor-2`: Clement Malo groupe M 
+- `contributor-1`: Clement Malo groupe M
+- `contributor-2`: Chitam Harone groupe M
 
 ## Fork urls
 
