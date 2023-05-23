@@ -3,6 +3,7 @@ from function import *
 def menu():
     print("\n==== Programming Quotes ====")
     print("1. Random quote")
+    print("2. Display quote")
     print("2. Add quote")
     print("3. All quotes")
     print("4. Exit")
@@ -20,8 +21,10 @@ def main():
             count = int(input("Enter the number of quotes to display: "))
             display_quotes(quotes, count)
         elif choice == "3":
-            view_quotes(quotes)
+            add_quote(quotes,"quotes.txt")
         elif choice == "4":
+            view_quotes(quotes)
+        elif choice == "5":
             print("Good bye...")
             break
         else:
