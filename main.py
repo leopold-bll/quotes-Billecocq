@@ -1,4 +1,4 @@
-from functions import *
+from function import *
 
 def menu():
     print("\n==== Programming Quotes ====")
