@@ -7,8 +7,6 @@ def menu():
     print("display : Display quotes")
     print("add : Add a new quote")
     print("exit : Exit the program")
-
-
 def main():
     while True:
         quotes = load_quotes("quotes.txt")
